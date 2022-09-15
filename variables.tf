@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "key_name" { 
     description = " SSH keys to connect to ec2 instance" 
-    default     =  "myJune2021Key" 
+    default     =  "mydev_deploy_infra_aws" 
 }
 
 variable "instance_type" { 
